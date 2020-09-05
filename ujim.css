@@ -1,0 +1,156 @@
+.header{
+    width: 100%;
+    height: 180px;
+    border: 2px solid black;
+    background-color: red;
+}
+.logo{
+    width: 12%;
+    height: 140px;
+    background-image: url("logo.jpg");
+    background-size: 100%;
+    border:2px solid black;
+    position:relative;
+    left: 50px;
+    top: 30px;
+    float: left;
+}
+h4{
+    color: blue;
+    margin: 7px;
+}
+h2{
+    position: relative;
+    left: 90px;
+    color: yellow;
+
+
+   
+}
+.ee{
+
+        color: yellow;
+        position: relative;
+        left: 200px;
+        text-align: left;
+
+       
+}
+h3{
+    text-align: left;
+    margin: 10px;
+    color:blue;
+}
+.rightlogo{
+    width: 14%;
+    height: 70px;
+    background-image: url("journal_logo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: right;
+    margin-top: -30px;
+    margin-right: 70px;
+}
+.menu{
+    background-color: white;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-flex;
+    text-align:center;  
+}
+ul li a{
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+    right: 180px;
+    color:black;
+
+   
+
+    
+}
+.schoolphoto{
+    width: 100%;
+    height:360px;
+    border: 2px solid black;
+    background-color: red;
+    background-image: url("ujimschool.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+}
+.ict{
+    text-align: center;
+}
+.left{
+    width: 35%;
+    height: 960px;
+    border: 1px solid #64B9F4;
+    background-color: #64B9F4;
+    float: left;
+    position: relative;
+    left: 100px;
+    border-radius: 2px 2px 2px 2px;
+}
+.right{
+    width: 50%;
+    height: 560px;
+    border: 1px solid black;
+    float: left;
+    position: relative;
+    left: 130px;
+}
+.note{
+    width: 400px;
+    height: 150px;
+    border:2px solid skyblue;
+    position: relative;
+    top: -210px;
+    left: 220px;
+    background-color: skyblue;
+    border-radius: 5px 5px 5px 5px;
+}
+.title{
+    text-align: left;
+    margin: 10px;
+}
+p{
+    font-weight: lighter;
+    padding-left: 10px;
+}
+.submission
+{
+    width: 625px;
+    height: 350px;
+    border-radius: 5px 5px 5px 5px;
+    position:relative;
+    left: 140px;
+    float: left; 
+}
+.sup,.id,.rf{
+    color: rgba(58, 2, 5, 0.904);
+    margin-left: -65px;
+}
+.downsession
+{
+    width: 430px;
+    height: 120px;
+    border:2px solid skyblue;
+    background-color: skyblue;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    position: relative;
+    left: -340px;
+    top: 100px;
+}
+.last{
+    width: 430px;
+    height: 120px;
+    float: left;
+    position: relative;
+    left: 570px;
+    top: -25px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ex</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    </head>
+    <style>
+
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+      
+        nav{
+    width: auto;
+    
+    background-color: black;
+    overflow: hidden;
+}
+
+ul li{
+    list-style: none;
+    float: left;  
+    
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px; 
+}
+ul li a:hover{
+    background-color: white;
+}
+
+        
+        .li1{
+            float:right;
+
+        }
+        nav ul li ul{
+            display: none;
+        }
+        nav ul li:hover ul{
+            display: block;
+            position: absolute;
+        }
+        nav ul li:hover ul li{
+            display: block;
+            background-color:red;
+            clear: both;
+            border-bottom: 2px solid black;
+            width: 100px;
+            
+        }
+        nav ul li:hover ul li:hover{
+            background-color: orange;
+            margin:1px auto 1px 15px;
+        }
+
+        nav ul .li2 .ul{
+            display: none;
+        }
+        nav ul .li2:hover .ul{
+            display: block;
+            position: absolute;
+        }
+        nav ul .li2:hover .ul .li{
+            display: block;
+            background-color: rgb(15, 208, 241);
+            clear: both;
+            border-bottom: 2px solid black;
+            width: 200px;
+            
+        }
+        nav ul .li2:hover .ul .li:hover
+           {
+            background-color: rgb(4, 86, 110);
+            margin: 3px auto 3px 20px;
+        }
+
+        
+    </style>
+    <body>
+        
+        <nav >
+            <ul>
+                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#" ><i class="fa fa-user"></i>About Us</a></li>
+                <li><a href="#" >Service  <i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li class="ho"><a href="#">Delivery</a></li>
+                        <li ><a href="#">Warrandy</a></li>
+                        <li><a href="#">Shipping</a></li>
+                    </ul>
+                </li>
+                <li class="li2"><a href="#" >ELECTRONIC  <i class="fa fa-angle-down"></i></a>
+                    <ul class="ul">
+                        <li class="li"><a href="#">BASIC</a></li>
+                        <li class="li"><a href="#">ANALOG</a></li>
+                        <li class="li"><a href="#">DOGOTAL</a></li>
+                        <li class="li"><a href="#">MICROCONTROLLER</a></li>
+                        <li class="li"><a href="#">PROJECT</a></li>
+
+                    </ul>
+                </li>
+                <li class="li1"><a href="#"><i class="fa fa-phone"></i>09965505554</a></li>
+            </ul>
+
+        </nav>
+
+    
+    </body>
+</html>

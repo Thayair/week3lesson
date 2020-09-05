@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{background-color:bisque;}
+nav{
+
+
+
+overflow: hidden;
+}
+
+ul li{
+list-style: none;
+float: left;  
+
+}
+ul li a{
+display: block;
+text-decoration: none;
+padding: 20px; 
+}
+ul li a:hover{
+background-color: white;
+}
+
+
+.li1{
+    float:right;
+
+}
+nav ul li ul{
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+nav ul li:hover ul li{
+    display: block;
+    background-color:red;
+    clear: both;
+    border-bottom: 2px solid black;
+    width: 100px;
+    
+}
+nav ul li:hover ul li:hover{
+    background-color: orange;
+    margin:1px auto 1px 15px;
+}
+
+nav ul .li2 .ul{
+    display: none;
+}
+nav ul .li2:hover .ul{
+    display: block;
+    position: absolute;
+}
+nav ul .li2:hover .ul .li{
+    display: block;
+    background-color: rgb(15, 208, 241);
+    clear: both;
+    border-bottom: 2px solid black;
+    width: 200px;
+    
+}
+nav ul .li2:hover .ul .li:hover
+   {
+    background-color: rgb(4, 86, 110);
+    margin: 3px auto 3px 20px;
+}

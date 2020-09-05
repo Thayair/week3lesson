@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: blue;
+}
+nav{
+width: auto;
+overflow: hidden;
+}
+ul{
+margin-left: 90px;
+margin-top: 50px;
+}
+ul li{
+list-style: none;
+float: left; 
+
+
+}
+ul li a{
+display: block;
+text-decoration: none;
+padding: 10px; 
+
+}
+ul li a:hover{
+background-color: white;
+}
+
+
+
+nav ul li ul{
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+nav ul li:hover ul li{
+    display: block;
+    background-color: rgb(15, 241, 109);
+    clear: left;
+    border-bottom: 2px solid black;
+    width: 150px;
+    
+    
+}
+nav ul li:hover ul li:hover{
+    background-color: rgb(250, 249, 248);
+    
+}
+
+nav ul li ul li .ul1{
+    display: none;
+
+}
+
+nav ul li ul li:hover .ul1{
+    display: block;
+    position: absolute;
+
+}
+
+nav ul li ul li .ul1 .li2{
+    display: block;
+    background-color: skyblue;
+    border-bottom: 2px solid black;
+    width: 250px;
+    margin-left: 100px;
+}
+
+nav ul li ul li .ul1 .li2:hover{
+    background-color: white;
+}
+
+nav ul .li .ul{
+    display: none;
+}
+
+nav ul .li:hover .ul{
+    display: block;
+    position: absolute;
+}
+
+nav ul .li:hover .ul .li1{
+    display: block;
+    background-color: brown;
+    clear: both;
+    border-bottom: 2px solid black;
+    width: 250px;
+    
+}
+
+nav ul .li:hover .ul .li1:hover
+   {
+    background-color:burlywood;
+   
+}

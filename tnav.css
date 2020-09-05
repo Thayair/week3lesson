@@ -1,0 +1,39 @@
+.navbar {
+    background-color:blue;
+    width:200%;
+    height: 50px;
+    overflow:hidden;
+
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding:5px;
+    
+}
+ul li a{text-decoration: none;}
+ul li a:hover {
+     display:block;
+    background-color:white;
+    width: auto;
+    height: 30px;}
+
+.navbar ul li ul {
+    display: none;}
+
+.navbar ul li:hover ul {
+    display:block;
+    position: absolute;
+}
+.navbar ul li:hover ul li{
+    clear:both;
+    display:block;
+    background-color:white;
+    border-bottom:2px solid black;
+}
+.navbar ul li:hover ul li:hover{
+    background-color:gray;
+    
+}
+
+    
